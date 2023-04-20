@@ -1,9 +1,9 @@
 function Content(props)  {
-    
+    const part = props
+    console.log(part)
     return(
     <>
-    console.log(props)
-    <p>{props.name1}</p>
+    {part.name[0]}
     
     </>
     )
